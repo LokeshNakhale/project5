@@ -1,0 +1,114 @@
+
+
+#nav{
+    width: 2vw;
+    color: red;
+    display: flex;
+    gap: 120px;
+   
+}
+#nav h4{
+    display: none;
+}
+#cursor{
+    display: none;
+}
+video{
+    width: 100vw;
+    height: 100vh;
+}
+/* _____________________________________ */
+#page1 h1{
+    font-size: 8vw;
+    color: rgb(128, 34, 34);
+}
+#page1 h3{
+    font-size: 4vw;
+}
+#page1 h4{
+    font-size: 1vh;
+}
+/* __________________________________________page2_____________ */
+#page2{
+    background-color: transparent;
+ display: flex;
+ flex-direction: column;
+ width: 100vw;
+
+}
+#about{
+    opacity: 1;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#about img{
+    width: 70vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+#about-in h3{
+    font-size: 5vw;
+}
+#about-in p{
+    font-size: 1.6vw;
+}
+/* ___________________card container______________________ */
+#card-container{
+    display: flex;
+   flex-direction: column;
+   
+}
+.card{
+    width: 70vw;
+    height: 100vh;
+
+ 
+}
+.card h3{
+    font-size: 5vw;
+}
+.card p{
+    font-size: 3vw;
+    
+}
+/* ______________________________________________ */
+#green-div{
+    height: 10vh;
+}
+#green-div h4{
+    font-size: 3vw;
+
+}
+/* ________________page3____________________ */
+#page3{
+    height: 30vh;
+}
+#page3>p{
+    font-size: 10px;
+}
+#page3 i{
+    font-size: 20px;
+
+}
+/*_____________________ page4________________ */
+#page4{
+ display: flex;
+ flex-direction: column;
+}
+#page4 h1{
+    font-size: 6vw;
+}
+.elem{
+    width: 100vw;
+    height: 50vh;
+}
+#footer{
+    margin-top:300px;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+}
